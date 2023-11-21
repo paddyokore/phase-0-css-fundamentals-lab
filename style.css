@@ -3,3 +3,29 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1,
+nav,
+section {
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px; padding-right: 10px; background-color: gray;
+}
+
+section figcaption {
+  font-size: smaller;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+}
+
+#details div {
+  float: left;
+  width: 25%; /* Set each div to occupy 25% of the width */ /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding and border in the box's total width and height */
+  background-color: aquamarine;
+}
